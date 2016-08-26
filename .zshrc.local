@@ -1,0 +1,12 @@
+# local zsh configuration for alt00196
+
+# path
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+# plugins list for oh-my-zsh 
+plugins=(git ssh-agent zsh_reload python brew)
+
+# local aliases
+alias jump='ssh bojump'
+alias zoo='cd ~/zoo'
+alias datasci='ssh datasci04.host.bo1.csnzoo.com'
